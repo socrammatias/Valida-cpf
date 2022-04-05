@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 def tratar_primeiro_digito(cpf):
     mult = 10
     x = 0
@@ -27,7 +28,7 @@ def tratar_segundo_digito(cpf):
         return valida
 
 def valida(cpf):
-    lista_invalidos = ['000000000000''11111111111', '22222222222', 
+    lista_invalidos = ['00000000000''11111111111', '22222222222', 
                         '33333333333', '44444444444', '55555555555',
                         '66666666666', '77777777777', '88888888888', 
                         '99999999999']
